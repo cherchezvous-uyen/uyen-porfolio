@@ -1,4 +1,4 @@
-import grainImage from "@/assets/image/grain.jpg";
+import grainImage from "@/assets/images/grain.jpg";
 import { twMerge } from "tailwind-merge";
 import { PropsWithChildren } from "react"
 
