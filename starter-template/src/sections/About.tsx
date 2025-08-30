@@ -44,7 +44,7 @@ export const AboutSection = () => {
          <CardHeader title='My Toolsbox' description='Explore the technologies and tools I use'/>
           <div>
               {toolboxItems.map((item)=>(
-                <div key={item.title}>
+                <div key={item.title} className="inline-flex">
                   <TechIcon component={item.iconType}/>
                   <span>{item.title}</span>
                 </div>
@@ -62,6 +62,7 @@ export const AboutSection = () => {
               ))}
             </div>
         </Card>
+        
         <Card>
               <Image src={mapImage} alt="map"/>
               <Image src={memojiImage} alt="memoji"/>
